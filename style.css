@@ -109,14 +109,32 @@ footer{
     padding: 5px;
 }
 
+@media (max-width: 762px){
+    body{
+        float: none;
+        width: 80%;
+    }
+    #vid1{
+        float: none;
+        padding-inline: 1%;
+        padding-bottom: 1%;
+        width: 90%;
+    }
+    #bankAutomatDemo{
+        float: none;
+        padding-inline: 1%;
+        padding-bottom: 1%;
+        width: 80%;
+    }
+}
 body.dark-mode {
     background-color: #1e1e1e;
     color: #5a5a5a;
-  }
+}
   
 body.dark-mode h1 {
     color: #ffffff;
-  }
+}
 
 #chaosBtn {
     position: absolute;

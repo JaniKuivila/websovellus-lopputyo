@@ -38,9 +38,9 @@ function Chaos() {
         elem.style.top = pos + "px";  
       }
     }
-  }
+}
 
-  function fetchCatFact() {
+function fetchCatFact() {
     catBtn.disabled = true;
     catBtn.textContent = 'Cat fact loading...';
     catBtn.classList.add('loading');
@@ -61,4 +61,4 @@ function Chaos() {
             catBtn.classList.remove('loading');
         }, 30000);
     });
-  }
+}
