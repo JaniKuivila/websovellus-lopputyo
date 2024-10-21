@@ -3,6 +3,7 @@ body{
     margin: 10px;
     padding: 10px;
     font-family: 'Arial', sans-serif;
+    color: black;
 }
 
 header{
@@ -101,6 +102,33 @@ h2{
 
 #contactList{
     list-style-type:circle
+}
+
+footer{
+    margin: 5px;
+    padding: 5px;
+}
+
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #5a5a5a;
+  }
+  
+body.dark-mode h1 {
+    color: #ffffff;
+  }
+
+#chaosBtn {
+    position: absolute;
+    top: 0;
+    left: 90%;
+}
+
+button.loading {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    pointer-events: none;
 }
 
 
